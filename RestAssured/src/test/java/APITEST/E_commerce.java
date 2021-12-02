@@ -6,6 +6,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
+
 public class E_commerce {
 	public String accessToken;
 	public static String baseurl = "https://ecommerceservice.herokuapp.com";
